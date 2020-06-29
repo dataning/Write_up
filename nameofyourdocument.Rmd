@@ -1,0 +1,16 @@
+---
+title: "nameOfYourDocument"
+author: "nameOfTheAuthor"
+date: "12/07/2019"
+bibliography: nameOfTheBibFile.bib
+output:
+  pdf_document:
+    citation_package: biblatex
+---
+
+<!-- If it happens that you are not using the Nüance-R and instead a local Rstudio without the citr addin, here an option to make citations [@monnot_etal19]. -->
+
+You still have to supply a .bib file to the bibliography parameter in the YAML (bibliography: nameOfTheBibFile.bib) for the R Markdown file knows where to look for reference.
+
+
+# References
